@@ -1,0 +1,110 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Renata Frade | Profissional & Acadêmico</title>
+  <style>
+    body { margin:0; font-family:Arial, Helvetica, sans-serif; background:#f7f7f7; color:#222; }
+    header { background:#1f2937; color:#fff; padding:50px 20px; text-align:center; }
+    header h1 { margin:0; font-size:2.4rem; }
+    header p { margin-top:12px; font-size:1.15rem; }
+    nav { background:#111827; padding:12px; text-align:center; position:sticky; top:0; }
+    nav a { color:#e5e7eb; margin:0 14px; text-decoration:none; font-weight:bold; }
+    nav a:hover { color:#60a5fa; }
+    section { max-width:950px; margin:50px auto; padding:0 20px; }
+    h2 { border-bottom:2px solid #e5e7eb; padding-bottom:10px; margin-bottom:25px; color:#1f2937; }
+    .card { background:#fff; padding:22px; border-radius:10px; margin-bottom:22px; box-shadow:0 2px 8px rgba(0,0,0,0.08); }
+    footer { background:#1f2937; color:#fff; text-align:center; padding:25px; margin-top:60px; }
+    footer a { color:#93c5fd; text-decoration:none; }
+    .lang { text-align:right; font-size:0.9rem; }
+    .tag { display:inline-block; background:#e5e7eb; padding:4px 10px; border-radius:20px; margin:4px 4px 0 0; font-size:0.85rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Renata Frade</h1>
+  <p>Site Profissional e Acadêmico</p>
+</header>
+
+<nav>
+  <a href="#sobre">Sobre</a>
+  <a href="#academico">Acadêmico</a>
+  <a href="#profissional">Profissional</a>
+  <a href="#projetos">Projetos</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+  <div class="lang">PT | EN</div>
+  <h2>Sobre / About</h2>
+  <div class="card">
+    <p><strong>Português</strong><br>
+    Sou profissional com formação acadêmica e experiência em atividades de ensino, pesquisa e atuação técnica. Tenho interesse em projetos interdisciplinares, produção científica e desenvolvimento profissional contínuo, com foco em qualidade, ética e impacto social.</p>
+    <p><strong>English</strong><br>
+    I am a professional with an academic background and experience in teaching, research, and technical activities. My interests include interdisciplinary projects, scientific production, and continuous professional development, with a focus on quality, ethics, and social impact.</p>
+  </div>
+</section>
+
+<section id="academico">
+  <h2>Formação Acadêmica & Pesquisa</h2>
+  <div class="card">
+    <p><strong>Formação Acadêmica</strong></p>
+    <ul>
+      <li>Graduação – Instituição de Ensino Superior</li>
+      <li>Pós-graduação / Especialização – Instituição</li>
+    </ul>
+    <p><strong>Atuação Acadêmica</strong></p>
+    <ul>
+      <li>Participação em projetos de pesquisa</li>
+      <li>Atividades de ensino e extensão</li>
+      <li>Produção acadêmica e eventos científicos</li>
+    </ul>
+    <p><strong>Áreas de Interesse</strong></p>
+    <span class="tag">Pesquisa Científica</span>
+    <span class="tag">Educação</span>
+    <span class="tag">Desenvolvimento Profissional</span>
+  </div>
+</section>
+
+<section id="profissional">
+  <h2>Experiência Profissional</h2>
+  <div class="card">
+    <p><strong>Profissional / Técnica</strong><br>
+    Instituição ou Empresa</p>
+    <ul>
+      <li>Atuação em atividades técnicas e administrativas</li>
+      <li>Organização, planejamento e execução de projetos</li>
+      <li>Trabalho colaborativo e interdisciplinar</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projetos">
+  <h2>Projetos, Publicações e Atividades</h2>
+  <div class="card">
+    <ul>
+      <li>Projetos acadêmicos e institucionais</li>
+      <li>Participação em eventos, cursos e capacitações</li>
+      <li>Atividades de pesquisa, ensino ou extensão</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <div class="card">
+    <p>Email: renatafrade@email.com</p>
+    <p>GitHub: <a href="https://github.com/renatafrade" target="_blank">github.com/renatafrade</a></p>
+    <p>LinkedIn: <a href="#" target="_blank">LinkedIn</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Renata Frade · GitHub Pages</p>
+</footer>
+
+</body>
+</html>
