@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive UI/UX test – Renata Frade site</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: system-ui, sans-serif;
+            margin: 0;
+            padding: 1rem;
+            background: #1e293b;
+            color: #e2e8f0;
+            min-height: 100vh;
+        }
+        h1 {
+            font-size: 1.25rem;
+            margin: 0 0 0.5rem;
+            font-weight: 600;
+        }
+        .subtitle {
+            font-size: 0.875rem;
+            color: #94a3b8;
+            margin-bottom: 1.5rem;
+        }
+        .device-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 1.5rem;
+            align-items: start;
+        }
+        .device-frame {
+            background: #0f172a;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+        .device-frame h2 {
+            margin: 0;
+            padding: 0.75rem 1rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+            background: #334155;
+            color: #f1f5f9;
+        }
+        .device-frame .viewport {
+            height: 640px;
+            border: 0;
+            display: block;
+            background: #fff;
+        }
+        .device-frame.mobile .viewport { width: 375px; max-width: 100%; margin: 0 auto; display: block; }
+        .device-frame.tablet .viewport { width: 768px; max-width: 100%; margin: 0 auto; display: block; }
+        .device-frame.desktop .viewport { width: 1280px; max-width: 100%; margin: 0 auto; display: block; }
+        .links {
+            margin-top: 1.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .links a {
+            color: #93c5fd;
+            text-decoration: none;
+            font-size: 0.875rem;
+        }
+        .links a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>Responsive UI/UX test</h1>
+    <p class="subtitle">Same page at different viewport widths. Use a local server (e.g. <code>npx serve</code> or <code>python3 -m http.server</code>) and open this file.</p>
+
+    <div class="device-grid">
+        <div class="device-frame mobile">
+            <h2>📱 Mobile (375px)</h2>
+            <iframe class="viewport" src="index.html" title="Home – Mobile view"></iframe>
+        </div>
+        <div class="device-frame tablet">
+            <h2>📱 Tablet (768px)</h2>
+            <iframe class="viewport" src="index.html" title="Home – Tablet view"></iframe>
+        </div>
+        <div class="device-frame desktop">
+            <h2>🖥️ Desktop (1280px)</h2>
+            <iframe class="viewport" src="index.html" title="Home – Desktop view"></iframe>
+        </div>
+    </div>
+
+    <div class="links">
+        <span style="color:#64748b;">Test other pages:</span>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="publications.html">Publications</a>
+        <a href="outreach.html">Outreach</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="service.html">Service</a>
+    </div>
+</body>
+</html>

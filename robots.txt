@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://renatafrade.github.io/sitemap.xml
