@@ -1,0 +1,35 @@
+---
+layout: default
+title: Publications
+---
+
+# Publications
+
+## Edited Books
+
+**Technofeminism: Multi and Transdisciplinary Contemporary Views on Women in Technology**  
+Renata Frade, Mário Vairinhos, Renata Loureiro Frade (Editors)  
+UA Editora, 2023
+
+---
+
+## Book Chapters
+
+**Manifesto para uma Inteligência Artificial Responsável em Relação ao Gênero e Tecnologia**  
+Frade, R., Terceiro, L., Pereira, I.  
+In: *Inteligência Artificial Responsável no Brasil: Oportunidades e Desafios*.  
+Edusp, 2026 (In press)
+
+---
+
+**Feminist HCI in Practice: Developing a Storytelling Platform for Women in Tech Communities**  
+Frade, R., Vairinhos, M., Gouveia, M.  
+LNCS, HCI International 2025 Proceedings. Springer, 2026
+
+---
+
+**Women in Technology: A Case Study in Science Communication and Knowledge Management**  
+Frade, R., Vairinhos, M.  
+CISTI 2025, pp. 825–836. Springer Nature Switzerland, 2026  
+[DOI](#)
+
