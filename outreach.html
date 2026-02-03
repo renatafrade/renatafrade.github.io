@@ -4,7 +4,7 @@
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-/>    
+/>     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,41 +31,50 @@
     {"@context":"https://schema.org","@type":"WebPage","name":"Science Communication | Renata Loureiro Frade, PhD","description":"Renata Frade's science communication: Pop Junctions (Henry Jenkins), Mídia Ninja Women in Tech columnist, Público, talks on technofeminism, feminist AI & women in tech.","url":"https://renatafrade.github.io/outreach.html","author":{"@type":"Person","name":"Renata Loureiro Frade","url":"https://renatafrade.github.io/"}}
     </script>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col">
-    <a href="#main-content" class="skip-link">Skip to main content</a>
-    <!-- INJECT:nav -->
-    <!-- Navigation -->
-    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-200 shadow-sm" aria-label="Main navigation">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between gap-2 h-16 md:h-18 min-h-16">
-                <a href="./index.html" class="font-serif text-lg md:text-xl font-semibold text-accent-700 hover:text-accent-800 transition-colors whitespace-nowrap shrink-0">Renata Loureiro Frade, PhD</a>
-                <button type="button" id="menu-toggle" class="no-print md:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 shrink-0 min-h-[44px] min-w-[44px] flex items-center justify-center" aria-expanded="false" aria-controls="nav-dropdown" aria-label="Toggle menu">
-                    <svg class="w-6 h-6 menu-open" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
-                    <svg class="w-6 h-6 menu-close hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
-                </button>
-                <ul id="nav-menu" class="hidden md:flex items-center flex-nowrap gap-1 lg:gap-2 font-medium text-slate-600 text-sm lg:text-base min-w-0">
-                    <li class="shrink-0"><a href="./index.html" class="px-2 lg:px-3 py-2 rounded-lg whitespace-nowrap hover:bg-slate-100 hover:text-slate-900 transition-colors">Home</a></li>
-                    <li class="shrink-0"><a href="./projects.html" class="px-2 lg:px-3 py-2 rounded-lg whitespace-nowrap hover:bg-slate-100 hover:text-slate-900 transition-colors">Research &amp; Projects</a></li>
-                    <li class="shrink-0"><a href="./publications.html" class="px-2 lg:px-3 py-2 rounded-lg whitespace-nowrap hover:bg-slate-100 hover:text-slate-900 transition-colors">Books &amp; Publications</a></li>
-                    <li class="shrink-0"><a href="./outreach.html" class="px-2 lg:px-3 py-2 rounded-lg whitespace-nowrap text-accent-700 bg-accent-50" aria-current="page">Science Communication</a></li>
-                    <li class="shrink-0"><a href="./teaching.html" class="px-2 lg:px-3 py-2 rounded-lg whitespace-nowrap hover:bg-slate-100 hover:text-slate-900 transition-colors">Teaching &amp; Mentoring</a></li>
-                    <li class="shrink-0"><a href="./service.html" class="px-2 lg:px-3 py-2 rounded-lg whitespace-nowrap hover:bg-slate-100 hover:text-slate-900 transition-colors">Networks &amp; Service</a></li>
-                    <li class="shrink-0"><a href="./attachments/CV_Renata_Frade.pdf" class="px-2 lg:px-3 py-2 rounded-lg whitespace-nowrap bg-accent-600 text-white hover:bg-accent-700 transition-colors" target="_blank" rel="noopener noreferrer" aria-label="Download CV (opens in new tab)">CV</a></li>
-                </ul>
-            </div>
-            <div id="nav-dropdown" class="hidden no-print md:hidden pb-4">
-                <ul class="flex flex-col gap-1 font-medium text-slate-600">
-                    <li><a href="./index.html" class="block px-4 py-3 rounded-lg hover:bg-slate-100">Home</a></li>
-                    <li><a href="./projects.html" class="block px-4 py-3 rounded-lg hover:bg-slate-100">Research &amp; Projects</a></li>
-                    <li><a href="./publications.html" class="block px-4 py-3 rounded-lg hover:bg-slate-100">Books &amp; Publications</a></li>
-                    <li><a href="./outreach.html" class="block px-4 py-3 rounded-lg bg-accent-50 text-accent-700" aria-current="page">Science Communication</a></li>
-                    <li><a href="./teaching.html" class="block px-4 py-3 rounded-lg hover:bg-slate-100">Teaching &amp; Mentoring</a></li>
-                    <li><a href="./service.html" class="block px-4 py-3 rounded-lg hover:bg-slate-100">Networks &amp; Service</a></li>
-                    <li><a href="./attachments/CV_Renata_Frade.pdf" class="block px-4 py-3 rounded-lg bg-accent-600 text-white hover:bg-accent-700" target="_blank" rel="noopener noreferrer" aria-label="Download CV (opens in new tab)">CV</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<header>
+  <nav class="top-nav">
+
+    <ul class="menu-left">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="outreach.html">Outreach</a></li>
+      <li><a href="service.html">Service</a></li>
+    </ul>
+
+    <div class="contact-icons">
+      <a href="https://scholar.google.com/citations?user=cFjxAUsAAAAJ&hl=pt-BR" target="_blank">
+        <i class="fa-solid fa-graduation-cap"></i>
+      </a>
+
+      <a href="https://orcid.org/0000-0002-8367-5577" target="_blank">
+        <i class="fa-brands fa-orcid"></i>
+      </a>
+
+      <a href="https://www.researchgate.net/profile/Renata_Frade" target="_blank">
+        <i class="fa-brands fa-researchgate"></i>
+      </a>
+
+      <a href="https://github.com/renatafrade" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/renatafrade/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+
+      <a href="https://www.instagram.com/lovelacers/" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+
+      <a href="mailto:frade.renata@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </div>
+
+  </nav>
+</header>
+ 
 
     <!-- /INJECT:nav -->
 
