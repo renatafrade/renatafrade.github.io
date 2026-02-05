@@ -1,0 +1,147 @@
+ESTRUTURA COMPLETA DO SITE - TEMPLATES PRONTOS
+
+==============================================
+ARQUIVOS JÁ CRIADOS:
+==============================================
+✅ /index.html (detecção de idioma)
+✅ /css/style.css (estilos completos)
+✅ /js/main.js (interações)
+✅ /pt/index.html (homepage português)
+✅ /README.md (instruções completas)
+
+==============================================
+ARQUIVOS A CRIAR (baseados nos templates):
+==============================================
+
+PORTUGUÊS (/pt/):
+- biografia.html
+- expertise.html
+- projetos.html
+- publicacoes.html
+- contato.html
+
+ENGLISH (/en/):
+- index.html
+- biography.html
+- expertise.html
+- projects.html
+- publications.html
+- contact.html
+
+ESPAÑOL (/es/):
+- index.html
+- biografia.html
+- experiencia.html
+- proyectos.html
+- publicaciones.html
+- contacto.html
+
+==============================================
+TEMPLATE UNIVERSAL (HEADER/FOOTER)
+==============================================
+
+Todas as páginas seguem esta estrutura:
+
+1. <!DOCTYPE html> + <head> com meta tags
+2. Fontes Google (Libre Baskerville + IBM Plex Sans)
+3. Link para ../css/style.css
+4. <body> com:
+   - Ícones sociais fixos (lado direito)
+   - Navegação com logo + menu + seletor de idioma
+   - Conteúdo da página
+   - Footer com copyright
+   - Script ../js/main.js
+
+==============================================
+ÍCONES SOCIAIS (mesmo em todas as páginas):
+==============================================
+
+<div class="social-icons">
+    <a href="mailto:frade.renata@gmail.com">✉️</a>
+    <a href="https://www.linkedin.com/in/renatafrade/" target="_blank">💼</a>
+    <a href="https://orcid.org/0000-0002-8367-5577" target="_blank">🔬</a>
+    <a href="https://www.researchgate.net/profile/Renata_Frade" target="_blank">📚</a>
+    <a href="https://scholar.google.com/citations?user=cFjxAUsAAAAJ" target="_blank">📖</a>
+    <a href="https://www.instagram.com/lovelacers/" target="_blank">📸</a>
+</div>
+
+==============================================
+NAVEGAÇÃO (adaptar idioma):
+==============================================
+
+PT: Início | Biografia | Expertise | Projetos | Publicações | Contato
+EN: Home | Biography | Expertise | Projects | Publications | Contact  
+ES: Inicio | Biografía | Experiencia | Proyectos | Publicaciones | Contacto
+
+Seletor: PT | EN | ES (links relativos ../pt/ ../en/ ../es/)
+
+==============================================
+CONTEÚDO ESTRUTURADO POR PÁGINA:
+==============================================
+
+BIOGRAFIA:
+- Hero com título
+- Trajetória completa (4-6 parágrafos)
+- Timeline profissional
+- Posições atuais
+- Formação acadêmica
+- Prêmios e reconhecimentos
+
+EXPERTISE:
+- 6 cards com ícone, título, descrição e tags de skills:
+  1. IA e Ética
+  2. UX Research
+  3. Transmedia
+  4. Comunicação Científica
+  5. DEI/Tecnofeminismo
+  6. Comunicação Estratégica
+
+PROJETOS:
+- 6 projetos principais em cards alternados:
+  1. Technofeminism (livro)
+  2. 247 Comunidades (doutorado)
+  3. LitGirlsBr (transmedia)
+  4. WeColloquium (evento)
+  5. Pop Junctions (website)
+  6. Punch! (empresa)
+
+PUBLICAÇÕES:
+- Lista de publicações por tipo:
+  - Livros (2)
+  - Capítulos (9)
+  - Artigos (múltiplos)
+  - Conferências (40+)
+- Cada item com: tipo, título, autores, venue, link
+
+CONTATO:
+- Informações de contato
+- Email, telefone, localização
+- Idiomas
+- Links para todas as redes sociais
+- Disponibilidade (consultoria, palestras, etc.)
+
+==============================================
+URLS FINAIS:
+==============================================
+
+https://renatafrade.github.io/renatafrade-portfolio/
+├── /pt/index.html (homepage)
+├── /pt/biografia.html
+├── /pt/expertise.html
+├── /pt/projetos.html
+├── /pt/publicacoes.html
+├── /pt/contato.html
+├── /en/index.html
+├── /en/biography.html
+├── /en/expertise.html
+├── /en/projects.html
+├── /en/publications.html
+├── /en/contact.html
+├── /es/index.html
+├── /es/biografia.html
+├── /es/experiencia.html
+├── /es/proyectos.html
+├── /es/publicaciones.html
+└── /es/contacto.html
+
+==============================================

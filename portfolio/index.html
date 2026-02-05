@@ -1,1 +1,93 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renata Frade, PhD | Portfolio</title>
+    <meta name="description" content="Renata Frade - AI Communication & Innovation Strategist. Researcher in Technology, Gender & Digital Inclusion.">
+    <script>
+        // Language detection and redirect
+        (function() {
+            const userLang = navigator.language || navigator.userLanguage;
+            const lang = userLang.substring(0, 2).toLowerCase();
+            
+            // Supported languages
+            const supportedLangs = ['pt', 'en', 'es'];
+            const defaultLang = 'en';
+            
+            // Determine which language to use
+            let redirectLang = supportedLangs.includes(lang) ? lang : defaultLang;
+            
+            // Redirect to language-specific page
+            window.location.href = `/${redirectLang}/`;
+        })();
+    </script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #f8f6f2 0%, #ffffff 100%);
+        }
+        .loading {
+            text-align: center;
+            color: #1a1a2e;
+        }
+        .loading h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .loading p {
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        .lang-options {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .lang-options a {
+            padding: 0.8rem 1.5rem;
+            background: #c7522a;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        .lang-options a:hover {
+            background: #a83d1f;
+            transform: translateY(-2px);
+        }
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #c7522a;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 2rem auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="loading">
+        <h1>Renata Frade, PhD</h1>
+        <div class="spinner"></div>
+        <p>Detecting language / Detectando idioma / Detectando idioma...</p>
+        <div class="lang-options">
+            <a href="/pt/">Português</a>
+            <a href="/en/">English</a>
+            <a href="/es/">Español</a>
+        </div>
+    </div>
+</body>
+</html>
